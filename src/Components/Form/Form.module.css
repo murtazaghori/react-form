@@ -1,0 +1,125 @@
+.Container {
+  padding: 50px;
+  
+  border-radius: 50px;
+  background-color: #e2edff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 50%;
+ margin: 100px 250px;
+ 
+ 
+  
+ 
+
+}
+
+ 
+
+ 
+
+.subheading {
+ 
+  color: #555;
+  margin-top: 15px;
+}
+.subheading a {
+  color: #566c7cdc;
+}
+
+ 
+.label{
+  padding-right: 93px;
+}
+.label2{
+  padding-right:82px ;
+}
+.label3{
+  padding-right: 70px;
+}
+
+.inputFields {
+  border: 2px solid #d2d9e0;
+ width: 222px;
+ 
+   padding-top: 10px;
+   padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+
+ 
+
+.input {
+  margin-top: 20px;
+}
+
+.label1 {
+  color: #0000006e;
+ 
+   
+}
+
+ 
+
+ 
+
+.button {
+  border: none;
+  background-color: #00419b;
+  color: white;
+ padding: 10px 30px; 
+  cursor: pointer;
+  border-radius: 25px;
+  display: block;
+  margin-left: 100px;
+margin-top: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .formSection,
+  .imageSection {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    max-height: 300px;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .divContainer {
+    padding: 20px;
+  }
+
+  .inputFields {
+    font-size: 12px;
+    height: 35px;
+  }
+
+  .label {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 10px;
+    width: 100px;
+  }
+
+  .image {
+    max-height: 200px;
+  }
+}
